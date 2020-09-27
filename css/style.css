@@ -1,0 +1,296 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  margin: 100px 0 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 6rem;
+  color: #fff;
+}
+
+h2 {
+  color: #00adb5;
+  font-size: 30px;
+}
+
+h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+h3 {
+  color: #66bfbf;
+}
+
+a {
+  color: #66bfbf;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 60px;
+  opacity: 0.1;
+}
+
+i {
+  color: #eeeeee;
+  margin-top: 20px;
+  transition-duration: 0.4s;
+  font-size: 50px !important;
+}
+
+i:hover {
+  opacity: 0.5;
+}
+
+.hero {
+  background: #16222A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 100px;
+  height: 60vh;
+}
+
+.sub-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+.profile {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.profile-img {
+  width: 150px;
+}
+
+.skills img {
+  width: 100px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.p-10px {
+  padding: 10px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.middle-container p {
+  font-size: 20px;
+}
+
+.html-img {
+  margin-right: 20px;
+  float: left;
+}
+
+.css-img {
+  margin-left: 20px;
+  float: right;
+}
+
+.javascript-img {
+  margin-right: 20px;
+  float: left;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.contact-me p {
+  margin-bottom: 60px;
+}
+
+.dark-bg {
+  background-color: #3a6073;
+}
+
+.bottom-container {
+  padding: 50px;
+}
+
+.bottom-container h2 {
+  font-size: 56px;
+  margin: 0;
+}
+
+.btn {
+  color: #eeeeee;
+  background-color: #00adb5;
+  border-radius: 5px;
+  padding: 15px 32px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: Transparent;
+  border: 2px solid #00adb5;
+  color: #222831;
+}
+
+.footer-link {
+  margin: 5px;
+}
+
+.copyright {
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    height: 20vh;
+  }
+
+  h1 {
+    font-size: 400%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  i {
+    font-size: 40px !important;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .profile-img {
+    width: 100px;
+  }
+
+  .profile {
+    width: 60%;
+  }
+
+  .skill-row {
+    width: 80%;
+  }
+
+  .contact-me {
+    width: 80%;
+  }
+
+  .contact-me p {
+    margin-bottom: 60px;
+  }
+
+  .bottom-container {
+    padding: 10px;
+  }
+
+  .middle-container p {
+    font-size: 18px;
+  }
+
+  .bottom-container h2 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 461px) {
+  .hero {
+    height: 10vh;
+  }
+
+  h1 {
+    font-size: 300%;
+  }
+
+  .sub-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero {
+    height: 10vh;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .sub-title {
+    font-size: 15px;
+  }
+}
+
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: -25px;
+  z-index: 99;
+  background-color: Transparent;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  opacity: 0.5;
+}
+
+#top-btn img {
+  width: 35%;
+}
+
+#top-btn:hover {
+  opacity: 1;
+}
+
+
+
+
+
+/* */
+/*! CSS Used from: https://kit-free.fontawesome.com/releases/latest/css/free.min.css ; media=all */
+@media all{
+.fab{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-dribbble-square:before{content:"\f397";}
+.fa-github-square:before{content:"\f092";}
+.fa-linkedin:before{content:"\f08c";}
+.fab{font-family:"Font Awesome 5 Brands";}
+.fab{font-weight:400;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIOOaBXso.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIMeaBXso.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIOuaBXso.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofIO-aBXso.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Nunito';font-style:normal;font-weight:400;font-display:swap;src:local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v14/XRXV3I6Li01BKofINeaB.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:400;font-display:block;src:url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.eot);src:url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.eot#iefix) format("embedded-opentype"),url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.woff) format("woff"),url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.ttf) format("truetype"),url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.svg#fontawesome) format("svg");}
