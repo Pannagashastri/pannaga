@@ -238,7 +238,7 @@ i:hover {
 
 @media (max-width: 375px) {
   .hero {
-    height: 10vh;
+    height: 50vh;
   }
 
   h1 {
